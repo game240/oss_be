@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.info import info_router
+from info import info_router
 import uvicorn
 
 app = FastAPI()
